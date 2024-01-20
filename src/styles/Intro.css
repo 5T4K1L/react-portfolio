@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Bodoni+Moda:opsz@6..96&family=Playfair+Display&display=swap");
+
+body {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #13293d;
+}
+
+.container {
+  margin: 0 2em;
+}
+
+.greet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greet h1 {
+  color: white;
+  font-family: "Bodoni Moda";
+  font-size: 45px;
+}
+
+.intro {
+  position: relative;
+  display: flex;
+}
+
+.intro p {
+  font-family: "Playfair Display";
+  font-size: 25px;
+  margin-top: -1em;
+  color: #a9fbd7;
+  min-width: 10em;
+}
+
+.alfonzo {
+  color: #ffcbcb;
+}
+
+.junioretc {
+  color: #f9dc5c;
+}
+
+.sidebar {
+  background-color: #a9fbd7;
+  height: 315px;
+  width: 51px;
+}
+
+.sidebar a {
+  font-family: "Average";
+  color: black;
+  text-decoration: none;
+  display: flex;
+}
+
+.links img {
+  height: 40px;
+  margin-right: 1em;
+  margin-top: -0.4em;
+}

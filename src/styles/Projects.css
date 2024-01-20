@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Bodoni+Moda:opsz@6..96&family=Playfair+Display&display=swap");
+
+body {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #13293d;
+}
+
+.projectsContainer {
+  margin-bottom: 2.5em;
+}
+
+.project h1 {
+  font-family: "Bodoni Moda";
+  background-color: #f9dc5c;
+  font-size: 20px;
+  min-width: 295px;
+  height: 34px;
+  margin: 2.2em 1.7em;
+  padding-left: 1em;
+}
+
+.firstProject h1 {
+  color: white;
+  font-family: "Bodoni Moda";
+  font-size: 20px;
+  margin: -1.5em 1.7em 0;
+}
+
+.firstProject p {
+  font-family: "Playfair Display";
+  font-size: 15px;
+  color: #f9dc5c;
+  margin: 5px 2.3em;
+  line-height: 1.5em;
+}
+
+.firstProject p span {
+  font-family: "Playfair Display";
+  font-size: 15px;
+  color: #a9fbd7;
+}
+
+.firstProject .images {
+  display: flex;
+  align-items: center;
+  margin: -1px 2em;
+}
+
+.firstProject .github {
+  height: 30px;
+}
+
+.firstProject .arrow {
+  height: 45px;
+}
+
+.firstProject:not(:first-child) {
+  margin-top: 2em;
+}
+
+.contactMe {
+  font-family: "Playfair Display";
+  background-color: #a9fbd7;
+  padding: 1em 2em 3em;
+  margin: 2em;
+}
+
+.contactMe h1 {
+  font-size: 2em;
+}
+
+.contactMe input {
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  width: calc(100% - 3em);
+  margin-bottom: 1.5em;
+  font-size: 15px;
+  font-family: "Playfair Display";
+  outline: none;
+}
+
+.contactMe button {
+  background-color: #f9dc5c;
+  font-family: "Average";
+  border: none;
+  width: 10em;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
