@@ -1,5 +1,6 @@
 import React from "react";
 import github from "../svgs/github-svgrepo-com.svg";
+import arrow from "../svgs/arrow-up-right-svgrepo-com.svg";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -21,6 +22,9 @@ const Projects = () => {
           <div className="images">
             <a href="https://github.com/5T4K1L/coffee-shop">
               <img className="github" src={github} alt="" />
+            </a>
+            <a href="https://kuyajher.netlify.app">
+              <img style={{ height: 40 }} src={arrow} alt="" />
             </a>
           </div>
         </div>
